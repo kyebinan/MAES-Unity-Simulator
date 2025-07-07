@@ -1,14 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
-    Assembly-CSharp.dll:
-    - Readme
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -78,7 +76,6 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
-    - UnityEditor.ShaderGraph.SubGraphAsset
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -99,6 +96,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -233,7 +235,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/MenuScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -261,6 +263,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14226}
     - Class: 114
+      Script: {instanceID: 14270}
+    - Class: 114
       Script: {instanceID: 14592}
     - Class: 114
       Script: {instanceID: 14652}
@@ -274,6 +278,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15032}
     - Class: 114
       Script: {instanceID: 15282}
+    - Class: 114
+      Script: {instanceID: 15480}
     - Class: 114
       Script: {instanceID: 15822}
     - Class: 114
@@ -296,6 +302,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16486}
     - Class: 114
       Script: {instanceID: 17314}
+    - Class: 114
+      Script: {instanceID: 17606}
     - Class: 114
       Script: {instanceID: 17618}
     - Class: 114
@@ -348,6 +356,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23188}
     - Class: 114
       Script: {instanceID: 23706}
+    - Class: 114
+      Script: {instanceID: 23708}
     - Class: 114
       Script: {instanceID: 23808}
     - Class: 114
@@ -1913,5 +1923,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 24
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: /home/joyboy/degree_project_kth/MAES-Unity-Simulator/test.x86_64
+  - Assets/Scenes/MenuScene.unity
+  playerPath: /home/joyboy/degree_project_kth/Build/test.x86_64
