@@ -9,6 +9,16 @@
     "/home/joyboy/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "/home/joyboy/degree_project_kth/MAES-Unity-Simulator/MAES-Unity-Simulator/Library/PackageCache/com.unity.2d.sprite@2ec8aabae3ca",
+      "fingerprint": "2ec8aabae3ca998cabcb3b98a0a05216a7ec2656",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.ai.navigation@2.0.6": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
