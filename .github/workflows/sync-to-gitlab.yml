@@ -1,0 +1,22 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v2
+
+      - name: Trigger GitLab CI/CD pipeline
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          curl --request POST --header "PRIVATE-TOKEN: $GITLAB_TOKEN" \
+            --form "ref=main" \
+            https://gitlab.com/api/v4/projects/34171/trigger/pipeline
+
