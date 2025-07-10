@@ -76,6 +76,13 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -101,6 +108,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -1921,6 +1929,234 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c0b8f4c826827e504c7d2a374de44bf6
+    assemblyName: Assembly-CSharp
+    namespaceName: DentedPixel.LTExamples
+    className: TestingUnitTests
+  - hash:
+      serializedVersion: 2
+      Hash: 417a12cc71e6a0dda05dea711e811504
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathBezier2d
+  - hash:
+      serializedVersion: 2
+      Hash: fc88ed5141fb00eb3b588acaeab618d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Following
+  - hash:
+      serializedVersion: 2
+      Hash: f031d719d17e4d6f2b95e1adef72f34e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingZLegacy
+  - hash:
+      serializedVersion: 2
+      Hash: 44c6c56854ac91ca890bdfaff7fd08ae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralCameraShake
+  - hash:
+      serializedVersion: 2
+      Hash: 26221a40683017de9e0aede537913192
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralBasic
+  - hash:
+      serializedVersion: 2
+      Hash: 1efc0dfcb5ddb693bbb3dcdf6105b846
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingIssue
+  - hash:
+      serializedVersion: 2
+      Hash: ba4571c70f64626fd5b7763c92ee2ff9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingColorTweening
+  - hash:
+      serializedVersion: 2
+      Hash: 9b65a2a678e734c0f9dd6fba81f44d27
+    assemblyName: Assembly-CSharp
+    namespaceName: DentedPixel.LTExamples
+    className: PathBezier
+  - hash:
+      serializedVersion: 2
+      Hash: 816fecf4182ffa42001e0b15887bcf6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Testing246
+  - hash:
+      serializedVersion: 2
+      Hash: 4d132940b948c4adb12dfc8fb773a28f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowingTests
+  - hash:
+      serializedVersion: 2
+      Hash: a05226701d8c7c3d4cfcd0a5f9b2ce20
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 69b1e28601102998c01f202977b108b7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingMaxTweens
+  - hash:
+      serializedVersion: 2
+      Hash: 345a5015a942dda37a5a410ec72897b7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PerformanceTests
+  - hash:
+      serializedVersion: 2
+      Hash: d7ccf31a9d2410ca0c5e8d2d77bca376
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathSplineEndless
+  - hash:
+      serializedVersion: 2
+      Hash: 39011fc0634ac5f6fdfe08847bf4df9d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingIssue2
+  - hash:
+      serializedVersion: 2
+      Hash: ee167df8ce6ebf3d17d3ba333feb3966
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathSpline2d
+  - hash:
+      serializedVersion: 2
+      Hash: e3f9c530c6215fdf163db4a324a76c0c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralBasics2d
+  - hash:
+      serializedVersion: 2
+      Hash: ac39f8fe114b00e7d18496b32fe8b640
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralEasingTypes
+  - hash:
+      serializedVersion: 2
+      Hash: b6858362e26052057fc1bac001f3a1f2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Testing240
+  - hash:
+      serializedVersion: 2
+      Hash: 255c6cf85cbb6f0365748318d3ee200a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingRotate
+  - hash:
+      serializedVersion: 2
+      Hash: b7be0d783d71ebd9e8a5efe90a846a27
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 70767932209c490e5919bf263b6f7186
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LogoCinematic
+  - hash:
+      serializedVersion: 2
+      Hash: d9d1763d80f78f72ea969e32900de0ca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingZLegacyExt
+  - hash:
+      serializedVersion: 2
+      Hash: a17829cc26688ff85852ee5044e80053
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathSplinePerformance
+  - hash:
+      serializedVersion: 2
+      Hash: 608ab6222239f8478b658313d47b1ad3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralAdvancedTechniques
+  - hash:
+      serializedVersion: 2
+      Hash: 7014c6a8b3ab7dda893c5b8fd9e0097a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Testing248
+  - hash:
+      serializedVersion: 2
+      Hash: 3b30ae4d54279d6610c73e0676951e76
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralUISpace
+  - hash:
+      serializedVersion: 2
+      Hash: 94b27ed5e57442cea38039aa57b82b42
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralSimpleUI
+  - hash:
+      serializedVersion: 2
+      Hash: e17b4d4b8224ddaed0123507cb6c2b1d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Testing243
+  - hash:
+      serializedVersion: 2
+      Hash: 536c622709f28957828e351d5e19ab47
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingSceneSwitching
+  - hash:
+      serializedVersion: 2
+      Hash: 13f342068acb9065214c3c9351a66636
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LeanTween
+  - hash:
+      serializedVersion: 2
+      Hash: e7b56196c173edf305d2a1a4a37113f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathSplines
+  - hash:
+      serializedVersion: 2
+      Hash: d903ed074b17cada71c38b2e310748b6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 443bf6852bf0e01687c985365d0b08aa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingOptionalCancel
+  - hash:
+      serializedVersion: 2
+      Hash: 7f411053fe1d25c3bc152b232ee78a40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GeneralEventsListeners
+  - hash:
+      serializedVersion: 2
+      Hash: cb096ce4767198e3bdc51144b3e197d8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestingDescr
+  - hash:
+      serializedVersion: 2
+      Hash: 9474daeed1a95760fd30bdc0356ff918
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PathSplineTrack
   platform: 24
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
