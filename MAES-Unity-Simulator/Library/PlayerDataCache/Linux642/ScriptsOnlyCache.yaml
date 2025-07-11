@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - LogoSequence
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -108,7 +110,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -243,7 +244,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/MenuScene.unity:
+    Assets/Scenes/LogoIntroScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -382,6 +383,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 24726}
     - Class: 114
       Script: {instanceID: 24888}
+    - Class: 114
+      Script: {instanceID: 77992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -397,6 +400,37 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 18592}
+    - Class: 114
+      Script: {instanceID: 21332}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -2157,7 +2191,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PathSplineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: da8446252552c3fb6a1d73a378451885
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LogoSequence
   platform: 24
   scenePathNames:
+  - Assets/Scenes/LogoIntroScene.unity
   - Assets/Scenes/MenuScene.unity
   playerPath: /home/joyboy/degree_project_kth/Build/test.x86_64
