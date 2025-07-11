@@ -464,6 +464,7 @@
 "Assets/LeanTween/Testing/TestingRotate.cs"
 "Assets/LeanTween/Testing/TestingSceneSwitching.cs"
 "Assets/LeanTween/Testing/TestingSequencer.cs"
+"Assets/Scripts/LogoSequence.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
